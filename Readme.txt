@@ -28,5 +28,15 @@ How to understand Project Layout And there Code ??
 -> Am try to code For easy understanding Code Each step is clear (if You check it each-each function how to working)
 -> Domain is very importance.
 ==================================================================================================
-
+How to improve self Efficiency??
+-> Practice On You can Write own Code For this project
+-> Try to take one-day on one-project
+-> Write code Only C/C++
+-> Before Write the code First You Design Layout On your Copy 
+-> Am some Project it not declear on function but If you Want to improve your Programing skill then you can
+   Used Function For any program
+-> Functional programing is Very easy to used and understanding for another 
+-> How to declear Function - > Return_type Fun(Arg1,Arg2) { return Arg; }
+-> The function only perform perticular Task and after perform then Return it.
+-> Key Point : Make Rule And follow it untill Death
    
