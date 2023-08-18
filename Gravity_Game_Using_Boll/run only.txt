@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<conio.h>
+#include<windows.h>
+int x=35,y=5;
+int lx1=25,ly1=5;
+int lx2=37,ly2=9;
+int lx3=25,ly3=12;
+int lx4=37,ly4=15;
+int lx5=25,ly5=17;
+int lx6=37,ly6=19;
+int lx7=25,ly7=20;
+
+void display(void);
+struct m
+{   int r1,c2;
+	char ch;
+};
+int main(void)
+{	struct m a1;
+	while(!kbhit())
+	{
+	display();
+	while(a1.ch=getch()){
+	switch(a1.ch)
+	{
+		case 's':
+		   while(!kbhit())
+		   { st:
+		   gotoxy(x,y);
+		  	printf(" ");
+		  	++y;
+		  	gotoxy(x,y);
+		  	printf("O");
+		  	sleep(0.8);
+			}
+			break;
+		 case 'a':		
+			gotoxy(x,y);
+		  	printf(" ");
+		  	--x;
+		  	gotoxy(x,y);
+		  	printf("O");
+		  	sleep(0.8);
+		  	goto st ;
+		  	break;
+		 case 'd':	
+			gotoxy(x,y);
+		  	printf(" ");
+		  	++x;
+		  	gotoxy(x,y);
+		  	printf("O");
+		 	sleep(0.8);
+		 	goto st;
+		 	break;
+		 
+	}// switch
+		}
+	}
+	
+	}
+	
+		
+
+
+
+void display(void){
+struct m a1;
+ for(a1.r1=20;a1.r1<50;a1.r1++)
+ {    gotoxy(a1.r1,2);
+ 	  printf("¶¶");
+ 	  gotoxy(a1.r1,21);
+ 	  printf("¶¶");
+ }
+ for(a1.c2=2;a1.c2<22;a1.c2++)
+ {    gotoxy(20,a1.c2);
+ 	  printf("¶¶");
+ 	  gotoxy(50,a1.c2);
+ 	  printf("¶¶");
+ }
+}
